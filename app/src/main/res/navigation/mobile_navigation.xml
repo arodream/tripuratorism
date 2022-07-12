@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.arodream.tripuratourism.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.arodream.tripuratourism.ui.gallery.GalleryFragment"
+        android:label="Gallery"
+        tools:layout="@layout/fragment_gallery"/>
+
+    <fragment
+        android:id="@+id/nav_map"
+        android:name="com.arodream.tripuratourism.ui.map.MapFragment"
+        android:label="Map"
+        tools:layout="@layout/fragment_map" />
+    <fragment
+        android:id="@+id/nav_hotel"
+        android:name="com.arodream.tripuratourism.ui.hotel.HotelFragment"
+        android:label="Hotels"
+        tools:layout="@layout/fragment_hotel"/>
+
+    <fragment
+        android:id="@+id/nav_faq"
+        android:name="com.arodream.tripuratourism.ui.faq.FaqFragment"
+        android:label="FAQ"
+        tools:layout="@layout/fragment_faq" />
+
+    <fragment
+        android:id="@+id/nav_qna"
+        android:name="com.arodream.tripuratourism.ui.qna.QnaFragment"
+        android:label="QnA"
+        tools:layout="@layout/fragment_qna" />
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.arodream.tripuratourism.ui.about.AboutFragment"
+        android:label="About"
+        tools:layout="@layout/fragment_about" />
+
+</navigation>
